@@ -1,0 +1,7 @@
+/run/verbose 1
+/run/numberOfThreads 8
+/CDEX/sim/set/mode CDEX300LF
+/run/reinitializeGeometry
+/CDEX/src/type CuContainer
+/CDEX/run/refresh true
+/run/initialize

@@ -1,0 +1,45 @@
+#Radioactive decay simulation
+/control/verbose 0
+/control/saveHistory
+/run/verbose 0
+#
+# Change the default number of threads (in multi-threaded mode)
+/run/numberOfThreads 28
+#
+
+/CDEX/sim/set/mode CDEXArParametersTest
+/CDEX/src/type CuContainer
+/CDEX/run/refresh true
+
+# Initialize kernel
+/run/initialize
+
+#########################
+/CDEX/cons/set/arabsyieldratio 0.3
+/CDEX/cons/set/arabslength 60 cm
+
+#Bi214
+/gps/particle ion
+/gps/ion 83 214 0 0
+/gps/energy 0 keV
+/run/beamOn 100000000
+
+#Tl208
+/gps/particle ion
+/gps/ion 81 208 0 0
+/gps/energy 0 keV
+/run/beamOn 100000000
+
+#Ac228
+/gps/particle ion
+/gps/ion 89 228 0 0
+/gps/energy 0 keV
+/run/beamOn 100000000
+
+#Bi212
+/gps/particle ion
+/gps/ion 83 212 0 0
+/gps/energy 0 keV
+/run/beamOn 100000000
+
+

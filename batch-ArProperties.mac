@@ -1,0 +1,65 @@
+#Radioactive decay simulation
+/control/verbose 0
+/control/saveHistory
+/run/verbose 0
+#
+# Change the default number of threads (in multi-threaded mode)
+/run/numberOfThreads 60
+#
+
+/CDEX/sim/set/mode CDEXArParametersTest
+
+# Initialize kernel
+/run/initialize
+
+/CDEX/cons/set/arabslength 200 cm
+/CDEX/cons/set/arabsyieldratio 1
+/CDEX/src/type ArVolume
+
+#K42
+/gps/particle ion
+/gps/ion 19 42 0 0
+/gps/energy 0 keV
+/run/beamOn 1000000
+
+/gps/pos/confine NULL
+/CDEX/src/type Wire
+
+#Ac228
+/gps/particle ion
+/gps/ion 89 228 0 0
+/gps/energy 0 keV
+/run/beamOn 1000000
+
+#Tl208
+/gps/particle ion
+/gps/ion 81 208 0 0
+/gps/energy 0 keV
+/run/beamOn 1000000
+
+
+/CDEX/cons/set/arabslength 200 cm
+/CDEX/cons/set/arabsyieldratio 1
+/CDEX/src/type ArVolume
+
+#K42
+/gps/particle ion
+/gps/ion 19 42 0 0
+/gps/energy 0 keV
+/run/beamOn 1000000
+
+/gps/pos/confine NULL
+/CDEX/src/type Wire
+
+#Ac228
+/gps/particle ion
+/gps/ion 89 228 0 0
+/gps/energy 0 keV
+/run/beamOn 1000000
+
+#Tl208
+/gps/particle ion
+/gps/ion 81 208 0 0
+/gps/energy 0 keV
+/run/beamOn 1000000
+

@@ -1,0 +1,23 @@
+#Radioactive decay simulation
+/control/verbose 1
+/control/saveHistory
+/run/verbose 1
+#
+# Change the default number of threads (in multi-threaded mode)
+/run/numberOfThreads 8
+
+/CDEX/sim/set/mode CDEX300LF
+/CDEX/src/type CuContainer
+/CDEX/run/refresh true
+
+# Initialize kernel
+/run/initialize
+
+#Ac228
+#Tl208
+/gps/particle ion
+/gps/ion 81 208 0 0
+/gps/energy 0 keV
+/run/beamOn 100
+
+

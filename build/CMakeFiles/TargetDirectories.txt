@@ -1,0 +1,7 @@
+/mnt/d/Study/CAVS/build/CMakeFiles/install/strip.dir
+/mnt/d/Study/CAVS/build/CMakeFiles/install/local.dir
+/mnt/d/Study/CAVS/build/CMakeFiles/install.dir
+/mnt/d/Study/CAVS/build/CMakeFiles/list_install_components.dir
+/mnt/d/Study/CAVS/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/Study/CAVS/build/CMakeFiles/edit_cache.dir
+/mnt/d/Study/CAVS/build/CMakeFiles/CAVS.dir
